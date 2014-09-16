@@ -55,13 +55,14 @@
 			} else{
 				$('.no-tags').hide();
 				$('.no-results').hide();
-				$('.tags').show().html($search + ' <span class="glyphicon glyphicon-remove"></span>');
+				$('.tags').show().html('<a href="#">' + $search + '</a>');
 			}
 
 		});//end search term submit
 	
 		//reset image search
-		$('.search-overview').on('click', '.tags', function(){
+		$('.search-overview .tags').on('click', 'a', function(event){
+			event.preventDefault();
 			$('#img-gallery img').show()
 			$('.tags').hide();
 			$('.no-tags').show();
