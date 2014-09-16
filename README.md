@@ -18,9 +18,9 @@ Setting up the html
 Using the plugin is straightforward. Create an image gallery using the following format:
 ```
 <div id="img-gallery">
-	<img src="img/image1.jpg" alt="animal">
-	<img src="img/image2.jpg" alt="mountains, sea">
-	<img src="img/image3.jpg" alt="people">
+	<img src="example1.jpg" alt="example_tag">
+	<img src="example2.jpg" alt="example_tag, another_example_tag">
+	<img src="example3.jpg" alt="and_yet_another_example_tag">
 </div>
 ```
 The alt attribute should contain the searchable tags, seperated by commas.
