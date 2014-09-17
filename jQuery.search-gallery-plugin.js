@@ -55,7 +55,7 @@
 			} else{
 				$('.no-tags').hide();
 				$('.no-results').hide();
-				$('.tags').show().html('<a href="#">' + $search + '</a>');
+				$('.tags').show().html('<a href="#">Reset "' + $search + '"</a>');
 			}
 
 		});//end search term submit
