@@ -51,4 +51,4 @@ Calling the plugin is straightforward. Insert this code snippet after the other 
   $('#image-gallery').searchGallery();
 </script>
 ```
-Et voilà.
+Et voilà. You can search the created image gallery for specific tags (seperated by a space).
